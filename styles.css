@@ -1,0 +1,115 @@
+img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 600px;
+
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(252, 211, 211);
+    margin-left: 0px;
+    font-size: 40px;
+}
+#v{
+    text-align: center;
+    text-decoration: none;
+    
+}
+#sp{
+    text-align: right;
+    text-decoration: none;
+}
+#r{
+    text-align: left;
+    text-decoration: none;
+}
+a{
+    font-size: 25px;
+    color: rgb(14, 51, 14);
+    display: inline-block;
+    margin: 0 170px;
+    padding-top: 100px;
+}
+a:hover{
+    color: rgb(233, 104, 203);
+}
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+button{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    border-radius: 19px;
+    border:  solid 2px black;
+}
+figcaption {
+    text-align: center;
+    font-size: 20px;
+    color: #093408;
+    padding-top: 10px;
+}
+.slideshow {
+    position: relative;
+    text-align: center;
+}
+
+#anterior, #proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    background-color: #f8daee;
+}
+
+#anterior {
+    left: 10px;
+}
+
+#proximo {
+    right: 10px;
+}
+div{
+    margin-top: 20px;
+}
+.audio-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.audio-container p {
+    margin-right: 20px;
+    font-size: 20px;
+}
+.left {
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+    z-index: 9999;
+    color: rgb(12, 12, 12);
+    font-size: 16px;
+}
+.stitch{
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 300px;
+    padding-right: 600px;
+    padding-bottom:0px;
+}
